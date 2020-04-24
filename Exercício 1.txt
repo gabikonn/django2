@@ -1,0 +1,7 @@
+Explicar na teoria (para o responsável pelo treinamento) a relação entre Model,
+ View, Templates e URLs, no Django.
+ No Django, existe um ciclo que envolve todos estas funcionalidades para uma aplicação. 
+ O model fornece  a interface o banco de dados que contém os dados do aplicativo, a view gerencia 
+ a maior  parte do processamento de dados, lógica e mensagens do aplicativo. Template fornece a 
+ lógica de exibição e é a interface entre o usuário e seu aplicativo Django. E o URL informa o
+ endereço e qual a view declarada no projeto.
